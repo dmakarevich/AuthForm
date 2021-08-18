@@ -11,7 +11,8 @@ import SwiftUI
 struct AuthFormApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SignInView()
+                .environmentObject(SignInViewModel())
         }
     }
 }

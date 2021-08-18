@@ -8,18 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		1281C21726CD592E0050A8BE /* AuthFormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1281C21626CD592E0050A8BE /* AuthFormApp.swift */; };
-		1281C21926CD592E0050A8BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1281C21826CD592E0050A8BE /* ContentView.swift */; };
 		1281C21B26CD59300050A8BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1281C21A26CD59300050A8BE /* Assets.xcassets */; };
 		1281C21E26CD59300050A8BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1281C21D26CD59300050A8BE /* Preview Assets.xcassets */; };
+		1281C23126CD59DD0050A8BE /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1281C22F26CD59DD0050A8BE /* SignUpViewModel.swift */; };
+		1281C23226CD59DD0050A8BE /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1281C23026CD59DD0050A8BE /* SignInViewModel.swift */; };
+		1281C23826CD59E40050A8BE /* SignInForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1281C23426CD59E40050A8BE /* SignInForm.swift */; };
+		1281C23926CD59E40050A8BE /* SignUpForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1281C23526CD59E40050A8BE /* SignUpForm.swift */; };
+		1281C23A26CD59E40050A8BE /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1281C23626CD59E40050A8BE /* SignInView.swift */; };
+		1281C23B26CD59E40050A8BE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1281C23726CD59E40050A8BE /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1281C21326CD592E0050A8BE /* AuthForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1281C21626CD592E0050A8BE /* AuthFormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFormApp.swift; sourceTree = "<group>"; };
-		1281C21826CD592E0050A8BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1281C21A26CD59300050A8BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1281C21D26CD59300050A8BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1281C21F26CD59300050A8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1281C22F26CD59DD0050A8BE /* SignUpViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		1281C23026CD59DD0050A8BE /* SignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		1281C23426CD59E40050A8BE /* SignInForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInForm.swift; sourceTree = "<group>"; };
+		1281C23526CD59E40050A8BE /* SignUpForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpForm.swift; sourceTree = "<group>"; };
+		1281C23626CD59E40050A8BE /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		1281C23726CD59E40050A8BE /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				1281C21626CD592E0050A8BE /* AuthFormApp.swift */,
-				1281C21826CD592E0050A8BE /* ContentView.swift */,
+				1281C23326CD59E40050A8BE /* Views */,
+				1281C22E26CD59DD0050A8BE /* ViewModels */,
 				1281C21A26CD59300050A8BE /* Assets.xcassets */,
 				1281C21F26CD59300050A8BE /* Info.plist */,
 				1281C21C26CD59300050A8BE /* Preview Content */,
@@ -67,6 +78,26 @@
 				1281C21D26CD59300050A8BE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1281C22E26CD59DD0050A8BE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1281C22F26CD59DD0050A8BE /* SignUpViewModel.swift */,
+				1281C23026CD59DD0050A8BE /* SignInViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1281C23326CD59E40050A8BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1281C23426CD59E40050A8BE /* SignInForm.swift */,
+				1281C23526CD59E40050A8BE /* SignUpForm.swift */,
+				1281C23626CD59E40050A8BE /* SignInView.swift */,
+				1281C23726CD59E40050A8BE /* SignUpView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1281C21926CD592E0050A8BE /* ContentView.swift in Sources */,
+				1281C23A26CD59E40050A8BE /* SignInView.swift in Sources */,
+				1281C23926CD59E40050A8BE /* SignUpForm.swift in Sources */,
+				1281C23126CD59DD0050A8BE /* SignUpViewModel.swift in Sources */,
+				1281C23B26CD59E40050A8BE /* SignUpView.swift in Sources */,
 				1281C21726CD592E0050A8BE /* AuthFormApp.swift in Sources */,
+				1281C23226CD59DD0050A8BE /* SignInViewModel.swift in Sources */,
+				1281C23826CD59E40050A8BE /* SignInForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
